@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+_pycache_/
+*.pyc
+
+# Django
+db.sqlite3
+
+# Environment/secrets
+.env
+
+# React / Node
+node_modules/
+
+# Expo
+.expo/
+
+# Windows
+desktop.ini
+
+# Build
+build/
+dist/
