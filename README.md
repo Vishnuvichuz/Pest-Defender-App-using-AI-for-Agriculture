@@ -47,10 +47,10 @@ Classification)
 ## 🛠️ Tech Stack
 
 ### Frontend
-- Flutter / React
 - HTML
 - CSS
 - JavaScript
+- React native
 
 ### Backend
 - Python
@@ -62,9 +62,7 @@ Classification)
 
 ### AI & Machine Learning
 - TensorFlow
-- Keras
 - OpenCV
-- NumPy
 - Scikit-learn
 
 ### Development Tools
@@ -109,78 +107,6 @@ Pest-Defender-AI/
 
 ---
 
-## 🚀 Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/pest-defender-ai.git
-cd pest-defender-ai
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate
-
-Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Linux/Mac
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Configure Database
-
-Update the PostgreSQL credentials in:
-
-```
-settings.py
-```
-
-Example
-
-```python
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "pest_defender",
-        "USER": "postgres",
-        "PASSWORD": "password",
-        "HOST": "localhost",
-        "PORT": "5432",
-    }
-}
-```
-
-### Run Migrations
-
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-
-### Start Server
-
-```bash
-python manage.py runserver
-```
-
----
 
 ## 🧠 AI Workflow
 
@@ -229,52 +155,20 @@ python manage.py runserver
 - Better crop health
 - Increased agricultural productivity
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push changes
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
 ## 👨‍💻 Author
 
 **Vishnu Prasad**
+**Akhilesh RS**
+**Adwaith S**
+**Rufus Jose**
 
-B.Tech Computer Science Engineering
+B.Tech CSE Final year project
 
 Backend Developer | AI & Machine Learning Enthusiast | Data Engineering Learner
 
-GitHub: https://github.com/yourusername
-
-Email: your-email@example.com
 
 ---
 
